@@ -50,9 +50,9 @@ Need a section that is not there? [Open an issue](https://github.com/oleharch/da
 ## How I build
 
 - Liquid first. A section with a schema the merchant can edit beats hard-coded markup and beats an app.
-- Every theme file passes Shopify Theme Check. Scripts are deferred custom elements, styles are scoped to the section.
+- Theme code goes through Shopify Theme Check. Scripts are deferred custom elements, styles are scoped to the section.
 - Figma to pixel-perfect, mobile-first. The phone layout is designed, not shrunk.
-- Nothing ships without a check on PageSpeed: 90+ on mobile is the baseline, not the goal.
+- Every page gets a PageSpeed check before launch. 90+ is the baseline, not the goal.
 - Short, plain commits and READMEs, so the next developer can take over without a call.
 
 ## Experience
