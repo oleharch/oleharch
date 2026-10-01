@@ -76,6 +76,7 @@ webhooks to CRM, deploys from GitHub Actions.
 | Project | What it is | Built with |
 |---|---|---|
 | [dawn-sections](https://github.com/oleharch/dawn-sections) | Drop-in sections for Dawn and any OS 2.0 theme: age gate, sticky add to cart, FAQ with JSON-LD, upsell modal, free shipping bar. One Liquid file each, Theme Check clean, no apps. | Liquid, Web Components |
+| [dawn-complete-the-look](https://github.com/oleharch/dawn-complete-the-look) | Complete the look on the product page: intercepts Add to cart, offers matching products per product (metafield), adds them in one `/cart/add.js` call through Dawn's own cart drawer. | Liquid, Section Rendering API, Ajax Cart API |
 | [learn-liquid](https://github.com/oleharch/learn-liquid) | Interactive Liquid trainer for Shopify developers, in Ukrainian: 18 lessons with auto-checked tasks, a 92-page reference, a live sandbox and 131 interview questions. | React 19, TypeScript, Vite, LiquidJS |
 | [react-modal-context](https://github.com/oleharch/react-modal-context) · [demo](https://react-modal-context.vercel.app) | Modals by id on the native `<dialog>`: a `useModal` hook, data for modals, exit animations, bottom sheets and drawers. Zero dependencies, tested, CI. | React, TypeScript, Vitest |
 | [Accordion](https://gist.github.com/oleharch/021ef0542e9b22711043febcd4391713) | Dependency-free accordion with data attributes and `max-height` animation. | Vanilla JS |
