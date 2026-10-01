@@ -61,26 +61,15 @@ and Next.js, and I still build custom WordPress and WooCommerce sites when that 
 
 ## React and Next.js
 
-| Area | What I build | Tools |
-|---|---|---|
-| **Product UIs** | SaaS front ends, admin panels, CRMs and dashboards: a quiz builder, a case management system, a real-estate sales CRM, a design studio site. | React 19, Next.js (App Router), TypeScript |
-| **Data and state** | Server-side pagination and filtering, tables, forms with validation, optimistic updates. | TanStack Query and Table, Zustand, Redux Toolkit, zod |
-| **Realtime and files** | Live status updates, chat and notifications over websockets, Excel import and export, drag and drop. | Supabase Realtime, Socket.IO, xlsx, dnd-kit |
-| **UI systems** | Component libraries and design systems, animation, horizontal scroll and scroll-driven layouts. | Tailwind CSS, shadcn/ui, Radix, MUI, Framer Motion, Lenis |
-| **Auth and i18n** | Login flows with JWT and OAuth, roles and access, multi-language apps. | next-intl, JWT |
-| **Quality** | Unit and end-to-end tests, type-safe APIs, CI on GitHub Actions. | Vitest, Playwright, ESLint |
-| **Backend next to a team** | I read, support and extend the API next to a backend developer: endpoints, webhooks, schema changes. | Node.js, Fastify, NestJS, Prisma, PostgreSQL, GraphQL |
+Complex product UIs when a store or a client needs more than a theme: SaaS front ends, admin panels, CRMs and dashboards.
+React 19, Next.js (App Router), TypeScript, TanStack Query, Zustand, Tailwind CSS, shadcn/ui, next-intl, Vitest and Playwright.
+I work next to a backend team on Node.js, Prisma and GraphQL APIs.
 
 ## WordPress and WooCommerce
 
-| Area | What I build | Tools |
-|---|---|---|
-| **Custom themes** | Themes from scratch on a gulp or Vite build, Sass or Tailwind. ACF field groups and CPTs registered in code, custom taxonomies and rewrite rules, AJAX catalogs that still work without JavaScript. | PHP, ACF Pro, CPT, gulp, Tailwind CSS |
-| **WooCommerce** | Cart and checkout template overrides, pricing hooks (rentals by days, custom item data), AJAX cart, My Account, seller subscriptions, order line items in admin and emails. | WooCommerce hooks and templates |
-| **Multilingual** | Bilingual and four-language sites with language-aware links, menus and forms. | Polylang, WPML |
-| **Leads and integrations** | Forms without heavy plugins: AJAX handlers, a leads inbox as a CPT, webhooks to CRM and Telegram, first-touch UTM capture, one GTM container per site. | CF7, Make, Kommo, GTM |
-| **Gutenberg and builders** | Custom blocks and repeatable fields, add-ons for Elementor when the client already uses it. | Gutenberg, Elementor |
-| **Performance and ops** | WebP through `<picture>`, caching, local fonts and libraries, 90+ PageSpeed. Deploys from GitHub Actions over FTPS or SSH, database sync scripts. | WP-CLI, GitHub Actions |
+Custom themes from scratch with ACF and custom post types registered in code, WooCommerce cart and checkout
+customization through hooks and template overrides, multilingual sites on Polylang or WPML, lead forms with
+webhooks to CRM, deploys from GitHub Actions.
 
 ## Featured work
 
