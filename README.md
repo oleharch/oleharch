@@ -21,25 +21,40 @@
   <img alt="WordPress" src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white">
 </p>
 
-I build Shopify stores that merchants can edit themselves and customers can use on a phone. Custom themes
-and sections in Liquid, Figma designs turned into pixel-perfect pages, apps and tracking wired in, stores
-migrated without data loss and kept at 90+ PageSpeed. When a store needs a complex UI, I bring React and Next.js.
+I help DTC brands get a Shopify store that is fast, easy for the merchant to edit and easy for the
+customer to buy from on a phone. Custom themes in Liquid, Figma designs turned into pixel-perfect pages,
+apps and tracking wired in, stores migrated without data loss. When a store needs a complex UI, I bring
+React and Next.js.
 
-## What I do
+## Shopify
 
-- **Shopify.** Custom themes and merchant-editable sections (Liquid, Online Store 2.0, Dawn, metafields). Custom features: quizzes, configurators, product options, upsells. Store setup from zero, migrations to Shopify, app integrations (Klaviyo, Judge.me, ReCharge), Admin API (GraphQL) and webhooks.
-- **Frontend.** JavaScript (ES6+), TypeScript, React, Next.js, HTML5, CSS3 / SCSS, Tailwind CSS. Web Components for theme scripts, no jQuery.
-- **Speed and tracking.** Core Web Vitals, PageSpeed optimization, GA4, Google Tag Manager, Meta Pixel, Conversions API.
-- **WordPress.** Custom themes, WooCommerce, PHP, ACF, Gutenberg blocks.
+| Area | What I do | Tools |
+|---|---|---|
+| **Themes** | Custom themes from scratch and customization of Dawn and paid themes. Merchant-editable sections and blocks with a clean schema, metafields and metaobjects for content, section groups, JSON templates. | Liquid, Online Store 2.0, Dawn, Theme Check, Shopify CLI |
+| **Figma to store** | Pixel-perfect, mobile-first builds of product, collection, landing and content pages. The phone layout is designed, not shrunk. | Figma, CSS, Web Components |
+| **Product and landing pages** | Pages built for conversion: clear buy box, sticky add to cart, upsells, FAQ with structured data, trust blocks, fast media. | Liquid, Section Rendering API, JSON-LD |
+| **Custom features** | Quizzes, configurators, product options, bundles, age gates, store availability per location, cart and checkout logic that the platform allows without Plus. | Liquid, JavaScript, Ajax Cart API, metafields |
+| **Apps and integrations** | Setup and theme integration of marketing, reviews and subscription apps. Custom app work: OAuth install, Billing API, webhooks, theme app extensions. | Klaviyo, Judge.me, ReCharge, GemPages, Admin API (GraphQL), Node.js |
+| **Speed** | Core Web Vitals audits and fixes: image sizing, deferred scripts, font loading, third-party cleanup. 90+ PageSpeed as the baseline. | Lighthouse, PageSpeed Insights |
+| **Tracking** | Correct events for ads and analytics, server-side where possible. | GA4, Google Tag Manager, Meta Pixel, Conversions API |
+| **Store setup and migrations** | Stores set up from zero: catalog, collections, navigation, payments, shipping, markets and languages. Migrations to Shopify with products, customers and orders kept intact. | Shopify admin, Matrixify-style imports, Admin API |
 
 ## Featured work
 
 | Project | What it is | Built with |
 |---|---|---|
 | [dawn-sections](https://github.com/oleharch/dawn-sections) | Drop-in sections for Dawn and any OS 2.0 theme: age gate, sticky add to cart, FAQ with JSON-LD. One Liquid file each, Theme Check clean, no apps. | Liquid, Web Components |
-| [learn-liquid](https://github.com/oleharch/learn-liquid) · [live](https://learn-liquid.vercel.app) | Interactive Liquid trainer for Shopify developers, in Ukrainian: 18 lessons with auto-checked tasks, a 92-page reference, a live sandbox and 131 interview questions. | React 19, TypeScript, Vite, LiquidJS, CodeMirror |
+| [learn-liquid](https://github.com/oleharch/learn-liquid) · [live](https://learn-liquid.vercel.app) | Interactive Liquid trainer for Shopify developers, in Ukrainian: 18 lessons with auto-checked tasks, a 92-page reference, a live sandbox and 131 interview questions. | React 19, TypeScript, Vite, LiquidJS |
 | [react-modal-context](https://github.com/oleharch/react-modal-context) · [demo](https://react-modal-context.vercel.app) | Modals by id: `ModalProvider`, a `useModal` hook and a `<Modal>` on the native `<dialog>`. Zero dependencies, tested. | React, TypeScript, Vitest |
 | [Accordion](https://gist.github.com/oleharch/021ef0542e9b22711043febcd4391713) | Dependency-free accordion with data attributes and `max-height` animation. | Vanilla JS |
+
+Client stores are under NDA. Public ones and more details are in the [portfolio](https://oleh-molchanov.vercel.app).
+
+## Also
+
+**Frontend:** JavaScript (ES6+), TypeScript, React, Next.js, HTML5, CSS3 / SCSS, Tailwind CSS.
+**WordPress:** custom themes, WooCommerce, PHP, ACF, Gutenberg blocks.
+**Backend next to a backend team:** Node.js, REST and GraphQL APIs, webhooks.
 
 ## Now
 
@@ -53,7 +68,8 @@ Need a section that is not there? [Open an issue](https://github.com/oleharch/da
 - Theme code goes through Shopify Theme Check. Scripts are deferred custom elements, styles are scoped to the section.
 - Figma to pixel-perfect, mobile-first. The phone layout is designed, not shrunk.
 - Every page gets a PageSpeed check before launch. 90+ is the baseline, not the goal.
-- Short, plain commits and READMEs, so the next developer can take over without a call.
+- Clean, maintainable code and short READMEs, so the next developer can take over without a call.
+- Clear communication, realistic estimates, on-time delivery. Quick fixes and long-term work are both fine.
 
 ## Experience
 
