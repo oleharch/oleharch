@@ -37,7 +37,7 @@ React and Next.js.
 | **Apps and integrations** | Setup and theme integration of marketing, reviews and subscription apps. Custom app work: OAuth install, Billing API, webhooks, theme app extensions. | Klaviyo, Judge.me, ReCharge, GemPages, Admin API (GraphQL), Node.js |
 | **Speed** | Core Web Vitals audits and fixes: image sizing, deferred scripts, font loading, third-party cleanup. 90+ PageSpeed as the baseline. | Lighthouse, PageSpeed Insights |
 | **Tracking** | Correct events for ads and analytics, server-side where possible. | GA4, Google Tag Manager, Meta Pixel, Conversions API |
-| **Store setup and migrations** | Stores set up from zero: catalog, collections, navigation, payments, shipping, markets and languages. Migrations to Shopify with products, customers and orders kept intact. | Shopify admin, Matrixify-style imports, Admin API |
+| **Store setup and migrations** | Stores set up from zero: catalog, collections, navigation, payments, shipping, markets and languages. Migrations to Shopify with products, customers and orders kept intact. | Shopify admin, CSV imports, Admin API |
 
 ## Featured work
 
@@ -55,12 +55,6 @@ Client stores are under NDA. Public ones and more details are in the [portfolio]
 **Frontend:** JavaScript (ES6+), TypeScript, React, Next.js, HTML5, CSS3 / SCSS, Tailwind CSS.
 **WordPress:** custom themes, WooCommerce, PHP, ACF, Gutenberg blocks.
 **Backend next to a backend team:** Node.js, REST and GraphQL APIs, webhooks.
-
-## Now
-
-Publishing one new section for Dawn every week in [dawn-sections](https://github.com/oleharch/dawn-sections).
-Next up: an add-to-cart upsell modal on the Section Rendering API and a free shipping progress bar for the cart drawer.
-Need a section that is not there? [Open an issue](https://github.com/oleharch/dawn-sections/issues).
 
 ## How I build
 
