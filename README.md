@@ -82,6 +82,19 @@ webhooks to CRM, deploys from GitHub Actions.
 
 Client stores and apps are under NDA. Public ones and more details are in the [portfolio](https://oleh-molchanov.vercel.app).
 
+## Liquid snippets
+
+Small, copy-paste snippets for everyday theme work, each with a README. All on [Gist](https://gist.github.com/oleharch).
+
+- [Product JSON-LD](https://gist.github.com/oleharch/1775dfd21f4cdce70cd6ba21d8fab428) with an Offer per variant
+- [Responsive image](https://gist.github.com/oleharch/bca0b472b19af1ad07051c0121ff0aab): srcset, sizes, lazy loading, LCP priority
+- [Price](https://gist.github.com/oleharch/8506ed47516ef3b155d8f313584712be): compare-at, sale %, "From", unit price
+- [Product badges](https://gist.github.com/oleharch/9ec92d651aaebb3e8c230967049536d9): Sold out, Sale, New, Low stock
+- [Breadcrumbs](https://gist.github.com/oleharch/b34ed7c54a380d852b2e5847c073a083) with BreadcrumbList JSON-LD
+- [Estimated delivery](https://gist.github.com/oleharch/975a61c5c7c5db011bece320a70b3854) in business days, no JavaScript
+- [Reading time](https://gist.github.com/oleharch/403e4b9feb20b01ea6e813b3b20d152a) for articles
+- [Metaobject list](https://gist.github.com/oleharch/3c75f6507cccdfcd0df222d6313b472a): testimonials from a metaobject_list setting
+
 ## How I build
 
 - Liquid first. A section with a schema the merchant can edit beats hard-coded markup and beats an app.
